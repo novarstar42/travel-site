@@ -1,0 +1,37 @@
+.large-hero {
+    position: relative;
+
+    /* &會顯示父元素 */
+    &__container {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    &__title {
+        font-weight: 300;
+        color: #2f5572;
+        font-size: 4.8rem;
+        margin: 0;
+    }
+
+    &__subtitlie {
+        font-weight: 300;
+        color: #2f5572;
+        font-size: 2.4rem;
+        margin: 0;
+    }
+
+    &__description {
+        font-weight: 100;
+        color: #fff;
+        font-size: 1.875rem;
+        max-width: 30rem;
+        margin: auto;
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+    }
+}
